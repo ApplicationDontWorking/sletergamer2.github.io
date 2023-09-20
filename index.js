@@ -22,5 +22,5 @@ app.post('/escribenos', (req, res) => {
     });
 });
 app.listen(port, () => {
-    console.log("el servidor se a conectado", port);
+    console.log("El servidor se a ejecutado con el puerto:", port);
 });
